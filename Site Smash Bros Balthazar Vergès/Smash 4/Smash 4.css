@@ -90,3 +90,35 @@ nav ul li a {
 nav ul li a:hover {
     color: #ddd;
 }
+
+li {
+   color: #fff
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ul li {
+   flex: 1;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+ul li img {
+   max-width: 100px;
+   height: auto;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 5px;
+}
+
+h3 {
+   color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
